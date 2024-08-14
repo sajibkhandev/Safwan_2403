@@ -19,7 +19,7 @@ ol {
     text-align: center;
     line-height: 65px;
     position: relative;
-   
+
 
 }
 
@@ -42,6 +42,42 @@ ol {
     font-family: "Jost", sans-serif;
 
 
+
+}
+
+.title {
+    text-align: center;
+
+}
+
+.title h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #E5745D;
+    font-family: "Vollkorn", serif;
+    position: relative;
+
+}
+
+.title h4::after {
+    position: absolute;
+    top: 7px;
+    left: 528px;
+    width: 40px;
+    height: 2px;
+    background: #E5745D;
+    content: "";
+}
+
+.title h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #00413D;
+    font-family: "Vollkorn", serif;
+    padding-top: 11px;
+    padding-bottom: 40px;
+    width: 522px;
+    margin: 0 auto;
 
 }
 
@@ -116,15 +152,16 @@ common css
     position: relative;
     overflow: hidden;
     z-index: 1;
-    
+
 }
-.overly{
+
+.overly {
     width: 45%;
     height: 100%;
-   background-image: url('../images/17-best-male-model-poses-for-photoshoots-956272.jpg');
-   background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat;
+    background-image: url('../images/17-best-male-model-poses-for-photoshoots-956272.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
     right: -36%;
     top: 0;
@@ -132,7 +169,7 @@ common css
     z-index: -1;
 }
 
-.banner:hover .overly{
+.banner:hover .overly {
     right: 0;
 
 }
@@ -154,7 +191,7 @@ common css
     width: 670px;
     padding-top: 10px;
     padding-bottom: 50px;
-    
+
 
 }
 
@@ -166,8 +203,58 @@ common css
 /* ==========================
    banner end
 ============================= */
-
-h1{
-    font-size: 100px;
-    color: red;
+/* ==========================
+   SErveric start
+============================= */
+.service {
+    padding: 120px 0px;
 }
+
+.service .card {
+    width: 100% !important;
+    border: 0px;
+    -webkit-box-shadow: 0px 10px 44px -19px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 44px -19px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 44px -19px rgba(0,0,0,0.75);
+}
+
+.service .card img {
+    width: 20% !important;
+}
+
+.service .card {
+    padding: 50px 35px;
+}
+
+.service .card .card-body {
+    padding: 0px !important;
+}
+
+.service .card .card-body .card-title {
+    padding-top: 26px;
+    padding-bottom: 10px;
+    color: #00413D;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Vollkorn", serif;
+
+}
+
+.service .card .card-body .card-text {
+
+    color: #00413D;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    padding-bottom: 30px;
+    width: 245px;
+
+}
+
+.service .card .card-body i {
+    font-size: 24px;
+}
+
+/* ==========================
+   SErveric end
+============================= */
