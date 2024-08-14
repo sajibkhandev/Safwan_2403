@@ -1,0 +1,168 @@
+/* ===================
+common css
+==================== */
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+
+.commonBtn {
+    width: 190px;
+    height: 65px;
+    background: #E5745D;
+    text-align: center;
+    line-height: 65px;
+    position: relative;
+   
+
+}
+
+.commonBtn::after {
+
+    position: absolute;
+    left: 7px;
+    top: 5px;
+    height: 55px;
+    width: 175px;
+    border: 2px solid white;
+    content: "";
+
+}
+
+.commonBtn a {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+
+
+
+}
+
+
+/* ===================
+common css
+==================== */
+/* ==========================
+   navber start
+============================= */
+.navbar {
+    padding: 18px 0px;
+
+
+}
+
+.navbar-nav {
+    column-gap: 50px;
+
+}
+
+
+
+.nav-link {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    font-size: 18px;
+    font-weight: 400;
+    color: #00413D;
+    font-family: "Jost", sans-serif;
+    transition: .4s;
+}
+
+.nav-link:hover {
+    color: #E5745D;
+}
+
+.button {
+    background: #E5745D;
+    height: 65px;
+    width: 190px;
+    line-height: 65px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Jost", sans-serif;
+    position: relative;
+}
+
+.button::after {
+    position: absolute;
+    left: 7px;
+    top: 5px;
+    height: 55px;
+    width: 175px;
+    border: 2px solid white;
+    content: "";
+}
+
+
+/* ==========================
+   navber end
+============================= */
+/* ==========================
+   banner start
+============================= */
+
+.banner {
+    background: #00413D;
+    padding: 220px 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+.overly{
+    width: 45%;
+    height: 100%;
+   background-image: url('../images/17-best-male-model-poses-for-photoshoots-956272.jpg');
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    position: absolute;
+    right: -36%;
+    top: 0;
+    transition: .6s;
+    z-index: -1;
+}
+
+.banner:hover .overly{
+    right: 0;
+
+}
+
+.banner h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: "Vollkorn", serif;
+    width: 837px;
+
+}
+
+.banner p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    width: 670px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    
+
+}
+
+.banner h1 span {
+    display: inline-block;
+
+}
+
+/* ==========================
+   banner end
+============================= */
