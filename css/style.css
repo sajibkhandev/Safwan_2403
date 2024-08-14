@@ -254,7 +254,49 @@ common css
 .service .card .card-body i {
     font-size: 24px;
 }
+.fristImage{
+    width: 65%;
+}
 
 /* ==========================
    SErveric end
+============================= */
+/* ==========================
+   about start
+============================= */
+ .title2{
+    text-align: left;
+ }
+ .title2 h2{
+    width: auto;
+ }
+ .title h4 {
+    margin-left: 62px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E5745D;
+    font-family: "Vollkorn", serif;
+    position: relative;
+}
+.title h4::after {
+    position: absolute;
+    top: 7px;
+    left: -57px;
+    width: 40px;
+    height: 2px;
+    background: #E5745D;
+    content: "";
+}
+
+.about p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #00413D
+    ;
+    font-family: "Vollkorn", serif;
+    width: 570px;
+
+}
+/* ==========================
+   about end
 ============================= */
