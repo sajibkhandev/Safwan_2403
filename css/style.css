@@ -554,3 +554,63 @@ font-family: "Jost", sans-serif;
 /* ==========================
    Contact end
 ============================= */
+/* ==========================
+   Footer start
+============================= */
+.footer{
+    background: #00413D;
+    padding: 80px 0px;
+    text-align: center;
+}
+.footer .ulOne ul{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Jost", sans-serif;
+    padding: 50px 0px;
+}
+.footer .ulOne ul li{
+    border-right: 1px solid rgba(255, 255, 255,0.10);
+    padding-right: 33px;
+}
+.footer .ulOne ul .lastLI{
+    border-right:0;
+    
+}
+.footer .ulTwo ul{
+    column-gap: 20px;
+}
+.footer .ulTwo li{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background: #E5745D;
+    border-radius: 50%;
+    color: #fff;
+    
+
+   
+    
+}
+.footer .ulTwo li i{
+   font-size: 20px;
+    
+
+   
+    
+}
+
+.copy p{
+
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255,0.10);
+    padding-top: 30px;
+    width: 1484px;
+    margin: 0 auto;
+    color: white;
+
+}
+
+/* ==========================
+   Footer end
+============================= */
