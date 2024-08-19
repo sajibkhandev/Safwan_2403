@@ -504,3 +504,53 @@ position: relative;
 /* ==========================
    testimonial end
 ============================= */
+/* ==========================
+   Contact start
+============================= */
+
+.contact img{
+    width: 100%;
+}
+.title4 {
+    text-align: left;
+
+}
+.title4 h2{
+    width: auto;
+
+}
+.input_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+    padding-bottom: 50px;
+
+}
+
+.contact .input{
+    width: 46%;
+    padding: 12px 20px;
+    border: 0px;
+    border-bottom: 2px solid rgba(0, 0, 0,0.10);
+    font-size: 18px;
+    font-weight: 400;
+    color: #060606;
+    outline: 0;
+    
+   font-family: "Jost", sans-serif;
+}
+.contact .input::placeholder{
+ font-size: 18px;
+ font-weight: 400;
+ color: #00413D;
+ 
+font-family: "Jost", sans-serif;
+
+}
+.contact .input5{
+    width: 100%;
+}
+/* ==========================
+   Contact end
+============================= */
