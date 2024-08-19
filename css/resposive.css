@@ -1,0 +1,328 @@
+@media (min-width:320px) and (max-width:575.99px){
+    .banner {
+        padding: 104px 0px;
+       
+    }
+    .navbar-brand img{
+        width: 85%;
+    }
+    .navbar-collapse{
+        background: rgb(46, 129, 135);
+        text-align: center;
+        
+    }
+    .nav-link {
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .button{
+        padding: 10px 20px ;
+        background:#E5745D;
+    }
+    .button::after {
+        left: 9px;
+        top: 4px;
+        height: 37px;
+        width: 132px;
+       
+        
+    }
+    .overly {
+        width: 0;
+      
+    }
+    .banner h1 {
+        font-size: 33px;
+       
+        width: auto;
+    }
+    .banner p {
+        font-size: 16px;
+        
+        width: auto;
+       
+    }
+    .commonBtn {
+        width: 153px;
+        height: 57px;
+       
+        text-align: center;
+        line-height: 57px;
+       
+    }
+    .commonBtn::after {
+       
+        left: 12px;
+        top: 8px;
+        height: 43px;
+        width: 128px;
+        
+    }
+
+    /* about start */
+    
+    .title h4::after {
+        left: 0px !important;
+    }
+    .title h2 {
+        font-size: 25px;
+       
+        width: auto;
+        
+    }
+    .service .card .card-body .card-title {
+        
+        font-size: 20px;
+      
+    }
+    .service .card .card-body .card-text {
+        
+        font-size: 16px;
+       
+        padding-bottom: 20px;
+        width: auto;
+    }
+    .service .card .card-body i {
+        font-size: 17px;
+    }
+    /* about start */
+    /* about start */
+
+    .title h4{
+        margin-left: 50px;
+    }
+    .title h4::after {
+        left: -49px !important;
+    }
+    .about p {
+        font-size: 16px;
+       font-weight: 400;
+        width: auto;
+    }
+    .progesber .round {
+        width: 139px;
+        height: 139px;
+      
+    }
+    /* about start */
+    
+}
+@media (min-width:576px) and (max-width:767.99px){
+    .banner {
+        padding: 104px 0px;
+       
+    }
+    .navbar-brand img{
+        width: 85%;
+    }
+    .navbar-collapse{
+        background: rgb(46, 129, 135);
+        text-align: center;
+        
+    }
+    .nav-link {
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .button{
+        padding: 10px 20px ;
+        background:#E5745D;
+    }
+    .button::after {
+        left: 9px;
+        top: 4px;
+        height: 37px;
+        width: 132px;
+       
+        
+    }
+    .overly {
+        width: 0;
+      
+    }
+    .banner h1 {
+        font-size: 40px;
+        width: auto;
+    }
+    .banner p {
+        font-size: 16px;
+        
+        width: auto;
+       
+    }
+    .commonBtn {
+        width: 153px;
+        height: 57px;
+       
+        text-align: center;
+        line-height: 57px;
+       
+    }
+    .commonBtn::after {
+       
+        left: 12px;
+        top: 8px;
+        height: 43px;
+        width: 128px;
+        
+    }
+
+    /* about start */
+    
+    .title h4::after {
+        left: 0px !important;
+    }
+    .title h2 {
+        font-size: 25px;
+       
+        width: auto;
+        
+    }
+    .service .card .card-body .card-title {
+        
+        font-size: 20px;
+      
+    }
+    .service .card .card-body .card-text {
+        
+        font-size: 16px;
+       
+        padding-bottom: 20px;
+        width: auto;
+    }
+    .service .card .card-body i {
+        font-size: 17px;
+    }
+    /* about start */
+    /* about start */
+
+    .title h4{
+        margin-left: 50px;
+    }
+    .title h4::after {
+        left: -49px !important;
+    }
+    .about p {
+        font-size: 16px;
+       font-weight: 400;
+        width: auto;
+    }
+    .progesber .round {
+        width: 139px;
+        height: 139px;
+      
+    }
+    /* about start */
+    
+}
+@media (min-width:768px) and (max-width:991.99px){
+    .banner {
+        padding: 104px 0px;
+       
+    }
+    .navbar-brand img{
+        width: 85%;
+    }
+    .navbar-collapse{
+        background: rgb(46, 129, 135);
+        text-align: center;
+        
+    }
+    .nav-link {
+        color: white;
+        padding: 20px 0px;
+    }
+
+    .button{
+        padding: 10px 20px ;
+        background:#E5745D;
+    }
+    .button::after {
+        left: 9px;
+        top: 4px;
+        height: 37px;
+        width: 132px;
+       
+        
+    }
+    .overly {
+        width: 0;
+      
+    }
+    .banner h1 {
+        font-size: 40px;
+        width: auto;
+    }
+    .banner p {
+        font-size: 16px;
+        
+        width: auto;
+       
+    }
+    .commonBtn {
+        width: 153px;
+        height: 57px;
+       
+        text-align: center;
+        line-height: 57px;
+       
+    }
+    .commonBtn::after {
+       
+        left: 12px;
+        top: 8px;
+        height: 43px;
+        width: 128px;
+        
+    }
+
+    /* about start */
+    
+    .title h4::after {
+        left: 0px !important;
+    }
+    .title h2 {
+        font-size: 25px;
+       
+        width: auto;
+        
+    }
+    .service .card .card-body .card-title {
+        
+        font-size: 20px;
+      
+    }
+    .service .card .card-body .card-text {
+        
+        font-size: 16px;
+       
+        padding-bottom: 20px;
+        width: auto;
+    }
+    .service .card .card-body i {
+        font-size: 17px;
+    }
+    /* about start */
+    /* about start */
+
+    .title h4{
+        margin-left: 50px;
+    }
+    .title h4::after {
+        left: -49px !important;
+    }
+    .about p {
+        font-size: 16px;
+       font-weight: 400;
+        width: auto;
+    }
+    .progesber .round {
+        width: 139px;
+        height: 139px;
+      
+    }
+    /* about start */
+    
+}
