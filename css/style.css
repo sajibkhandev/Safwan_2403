@@ -588,6 +588,9 @@ font-family: "Jost", sans-serif;
     background: #E5745D;
     border-radius: 50%;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 
    

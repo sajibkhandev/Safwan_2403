@@ -16,17 +16,15 @@
         padding: 20px 0px;
     }
 
-    .button{
-        padding: 10px 20px ;
-        background:#E5745D;
+    .button {
+        padding: 12px 20px;
+        background: #E5745D;
     }
     .button::after {
         left: 9px;
-        top: 4px;
-        height: 37px;
-        width: 132px;
-       
-        
+        top: 6px;
+        height: 39px;
+        width: 134px;
     }
     .overly {
         width: 0;
@@ -60,10 +58,10 @@
         
     }
 
-    /* about start */
+    /* seriver start */
     
-    .title h4::after {
-        left: 0px !important;
+    .service .title h4::after {
+        left: 9px !important;
     }
     .title h2 {
         font-size: 25px;
@@ -86,26 +84,143 @@
     .service .card .card-body i {
         font-size: 17px;
     }
-    /* about start */
+    /* service start */
     /* about start */
 
     .title h4{
         margin-left: 50px;
     }
-    .title h4::after {
-        left: -49px !important;
+    .about .title h4::after {
+        left: -42px !important;
+        width: 36px;
     }
     .about p {
         font-size: 16px;
        font-weight: 400;
         width: auto;
     }
+    .about .box1{
+        display: block !important;
+    }
+    .about .box1 img{
+        margin-bottom: 20px;
+    }
+    .about .box1 div{
+        display: block !important;
+    }
+    
+    /* about start */
+    
+    /* progress ber part */
     .progesber .round {
         width: 139px;
         height: 139px;
       
     }
-    /* about start */
+    /* progress ber part */
+    /* portfolio ber part */
+
+  
+    .portfolio .title3 h4::after {
+       
+        left: 7%;
+       
+    }
+    .portfolio ul{
+        display:  block !important;
+    }
+    .portfolio ul li::after{
+        height: 0px !important;
+    }
+    .portfolio ul li{
+        padding-bottom: 10px;
+    }
+    .portfolio .card .card-title {
+        font-size: 20px;
+        
+    }
+    .portfolio .card .overly {
+        width: 60px;
+        height: 60px;
+       
+    }
+    .portfolio .card .overly i {
+        font-size: 20px;
+        color: #E5745D;
+    }
+    /* portfolio ber part */
+    /* testimonial ber part */
+     
+    .testimonial .title3 h4::after {
+        
+        left: 0px;
+        
+    }
+    .testimonial .box2 {
+        
+        padding: 50px 22px !important;
+        gap: 44px;
+        
+    }
+    .testimonial {
+        padding-top: 120px;
+        padding-bottom: 101px;
+        
+    }
+    /* testimonial ber part */
+    /* contact ber part */
+
+    .contact .title h4::after {
+        
+        left: -51px;
+       
+    }
+    .contact .input {
+        width: 100%;
+        padding: 8px 14px;
+        
+    }
+    /* contact ber part */
+    /* footer ber part */
+    .footer .ulOne ul{
+        display: block !important;
+    }
+    .footer {
+       
+        padding: 80px 22px;
+        text-align: left !important;
+    }
+    .footer .ulOne ul li {
+        border-right: 0;
+        
+    }
+    .footer .ulOne ul {
+        
+        font-size: 16px;
+        
+    }
+    .footer .ulOne ul li{
+        
+       padding-bottom: 20px;
+        
+    }
+    .footer .ulTwo ul{
+        
+       justify-content: flex-start !important;
+        
+    }
+    .copy{
+        padding: 2px;
+    }
+    .copy p {
+        
+        width: auto;
+        margin: 20px;
+        
+    }
+    /* footer ber part */
+
+
     
 }
 @media (min-width:576px) and (max-width:767.99px){
@@ -126,24 +241,22 @@
         padding: 20px 0px;
     }
 
-    .button{
-        padding: 10px 20px ;
-        background:#E5745D;
+    .button {
+        padding: 12px 20px;
+        background: #E5745D;
     }
     .button::after {
         left: 9px;
-        top: 4px;
-        height: 37px;
-        width: 132px;
-       
-        
+        top: 6px;
+        height: 39px;
+        width: 134px;
     }
     .overly {
         width: 0;
       
     }
     .banner h1 {
-        font-size: 40px;
+        font-size: 38px;
         width: auto;
     }
     .banner p {
@@ -169,10 +282,10 @@
         
     }
 
-    /* about start */
+    /* seriver start */
     
-    .title h4::after {
-        left: 0px !important;
+    .service .title h4::after {
+        left: 114px !important;
     }
     .title h2 {
         font-size: 25px;
@@ -195,26 +308,148 @@
     .service .card .card-body i {
         font-size: 17px;
     }
-    /* about start */
+    /* service start */
     /* about start */
 
     .title h4{
         margin-left: 50px;
     }
-    .title h4::after {
-        left: -49px !important;
+    .about .title h4::after {
+        left: -42px !important;
+        width: 36px;
     }
     .about p {
         font-size: 16px;
        font-weight: 400;
         width: auto;
     }
+    .about .box1{
+        display: block !important;
+    }
+    .about .box1 img{
+        margin-bottom: 20px;
+    }
+    .about .box1 div{
+        display: block !important;
+    }
+    
+    /* about start */
+    
+    /* progress ber part */
     .progesber .round {
         width: 139px;
         height: 139px;
       
     }
-    /* about start */
+    .progesber .card_pro {
+        width: 250px;
+        height: 270px;
+       
+    }
+    /* progress ber part */
+    /* portfolio ber part */
+
+  
+    .portfolio .title3 h4::after {
+       
+        left: 7%;
+       
+    }
+    .portfolio ul{
+        display:  block !important;
+    }
+    .portfolio ul li::after{
+        height: 0px !important;
+    }
+    .portfolio ul li{
+        padding-bottom: 10px;
+    }
+    .portfolio .card .card-title {
+        font-size: 20px;
+        
+    }
+    .portfolio .card .overly {
+        width: 60px;
+        height: 60px;
+       
+    }
+    .portfolio .card .overly i {
+        font-size: 20px;
+        color: #E5745D;
+    }
+    /* portfolio ber part */
+    /* testimonial ber part */
+     
+    .testimonial .title3 h4::after {
+        
+        left: 0px;
+        
+    }
+    .testimonial .box2 {
+        
+        padding: 50px 22px !important;
+        gap: 44px;
+        
+    }
+    .testimonial {
+        padding-top: 120px;
+        padding-bottom: 101px;
+        
+    }
+    /* testimonial ber part */
+    /* contact ber part */
+
+    .contact .title h4::after {
+        
+        left: -51px;
+       
+    }
+    .contact .input {
+        width: 100%;
+        padding: 8px 14px;
+        
+    }
+    /* contact ber part */
+    /* footer ber part */
+    .footer .ulOne ul{
+        display: block !important;
+    }
+    .footer {
+       
+        padding: 80px 22px;
+        text-align: left !important;
+    }
+    .footer .ulOne ul li {
+        border-right: 0;
+        
+    }
+    .footer .ulOne ul {
+        
+        font-size: 16px;
+        
+    }
+    .footer .ulOne ul li{
+        
+       padding-bottom: 20px;
+        
+    }
+    .footer .ulTwo ul{
+        
+       justify-content: flex-start !important;
+        
+    }
+    .copy{
+        padding: 2px;
+    }
+    .copy p {
+        
+        width: auto;
+        margin: 20px;
+        
+    }
+    /* footer ber part */
+
+
     
 }
 @media (min-width:768px) and (max-width:991.99px){
@@ -228,6 +463,7 @@
     .navbar-collapse{
         background: rgb(46, 129, 135);
         text-align: center;
+        padding: 50px 0px;
         
     }
     .nav-link {
@@ -235,24 +471,22 @@
         padding: 20px 0px;
     }
 
-    .button{
-        padding: 10px 20px ;
-        background:#E5745D;
+    .button {
+        padding: 12px 20px;
+        background: #E5745D;
     }
     .button::after {
         left: 9px;
-        top: 4px;
-        height: 37px;
-        width: 132px;
-       
-        
+        top: 6px;
+        height: 39px;
+        width: 134px;
     }
     .overly {
         width: 0;
       
     }
     .banner h1 {
-        font-size: 40px;
+        font-size: 50px;
         width: auto;
     }
     .banner p {
@@ -278,10 +512,10 @@
         
     }
 
-    /* about start */
+    /* seriver start */
     
-    .title h4::after {
-        left: 0px !important;
+    .service .title h4::after {
+        left: 114px !important;
     }
     .title h2 {
         font-size: 25px;
@@ -304,25 +538,146 @@
     .service .card .card-body i {
         font-size: 17px;
     }
-    /* about start */
+    /* service start */
     /* about start */
 
     .title h4{
         margin-left: 50px;
     }
-    .title h4::after {
-        left: -49px !important;
+    .about .title h4::after {
+        left: -42px !important;
+        width: 36px;
     }
     .about p {
         font-size: 16px;
        font-weight: 400;
         width: auto;
     }
+    .about .box1{
+        display: block !important;
+    }
+    .about .box1 img{
+        margin-bottom: 20px;
+    }
+    .about .box1 div{
+        display: block !important;
+    }
+    
+    /* about start */
+    
+    /* progress ber part */
     .progesber .round {
         width: 139px;
         height: 139px;
       
     }
-    /* about start */
+    .progesber .card_pro {
+        width: 250px;
+        height: 270px;
+       
+    }
+    /* progress ber part */
+    /* portfolio ber part */
+
+  
+    .portfolio .title3 h4::after {
+       
+        left: 7%;
+       
+    }
+    .portfolio ul{
+        display:  block !important;
+    }
+    .portfolio ul li::after{
+        height: 0px !important;
+    }
+    .portfolio ul li{
+        padding-bottom: 10px;
+    }
+    .portfolio .card .card-title {
+        font-size: 20px;
+        
+    }
+    .portfolio .card .overly {
+        width: 60px;
+        height: 60px;
+       
+    }
+    .portfolio .card .overly i {
+        font-size: 20px;
+        color: #E5745D;
+    }
+    /* portfolio ber part */
+    /* testimonial ber part */
+     
+    .testimonial .title3 h4::after {
+        
+        left: 0px;
+        
+    }
+    .testimonial .box2 {
+        
+        padding: 50px 22px !important;
+        gap: 44px;
+        
+    }
+    .testimonial {
+        padding-top: 120px;
+        padding-bottom: 101px;
+        
+    }
+    /* testimonial ber part */
+    /* contact ber part */
+
+    .contact .title h4::after {
+        
+        left: -51px;
+       
+    }
+    .contact .input {
+        width: 46%;
+        padding: 8px 14px;
+    }
+    /* contact ber part */
+    /* footer ber part */
+    .footer .ulOne ul{
+        display: block !important;
+    }
+    .footer {
+       
+        padding: 80px 22px;
+        text-align: left !important;
+    }
+    .footer .ulOne ul li {
+        border-right: 0;
+        
+    }
+    .footer .ulOne ul {
+        
+        font-size: 16px;
+        
+    }
+    .footer .ulOne ul li{
+        
+       padding-bottom: 20px;
+        
+    }
+    .footer .ulTwo ul{
+        
+       justify-content: flex-start !important;
+        
+    }
+    .copy{
+        padding: 2px;
+    }
+    .copy p {
+        
+        width: auto;
+        margin: 20px;
+        
+    }
+    /* footer ber part */
+
+
     
 }
